@@ -1,3 +1,4 @@
+/* анимация poppup */
 @keyframes move{
 	0%{transform: translateY(-1000px);}
 	70%{transform: translateY(30px);}
