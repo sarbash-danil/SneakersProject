@@ -99,7 +99,6 @@ button {
 	background-color: #222222;
 }
 .title{
-	padding-top: 70px;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 42px;
@@ -107,7 +106,10 @@ button {
 	color: #FFFFFF;
 	position: relative;
 }
-.headtitle::after{
+.title__header{
+	padding-top: 70px;
+}
+.title__header::after{
 	content: "";
 	position: absolute;
 	left: 0;
@@ -138,8 +140,6 @@ button {
 	padding-right: 70px
 }
 .btn{
-	/* padding-left: 30px;
-	padding-right: 30px; */
 	padding-top: 15px;
 	padding-bottom: 15px;
 	background-color: #222222;
@@ -157,27 +157,28 @@ button {
 	background-color: #F3F3F3;
 	color: #000;
 	transition: 0.5s;
-
 }
-.switch ul{
+.switch-section ul{
 	padding: 0;
 	display: flex;
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
-.swicth__element a{
+.switch__element .switch__link{
 	margin-left: 40px;
 	margin-right: 40px;
 	color: #000;
 	font-size: 24px;
 }
-.swicth__element:hover{
+.switch__element:hover{
 	text-decoration: underline;
 }
 .black{
 	color: #000;
-	margin-top: 30px;
 	padding:0;
+}
+.indent{
+	padding-top: 65px;
 }
 .line{
 	height: 3px;
@@ -185,17 +186,14 @@ button {
 	opacity: 100%;
 	margin:0;
 }
-.black__fix{
-	color: #000;
-}
-.card{
+.cardbar__card{
 	background-color: #C4C4C4;
 	padding: 30px 15px 15px 15px;
 	margin-bottom: 50px;
 	border-radius: 0px;
 	width: 30%;
 }
-.card-title{
+.card__title{
 	margin-top: 20px;
 	margin-left: 10px;
 	font-weight: bold;
@@ -211,16 +209,18 @@ button {
 	color: #fff;
 }
 .cardbar{
+	padding: 0px;
 	flex-wrap: wrap;
 	margin-top: 40px;
 }
-.card:hover{
+.cardbar__card:hover{
 	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
 	transition: 0.5s;
 	transform: scale(1.03);
 }
 .screen3{
 	background-color: #222222;
+	padding: 0px;
 }
 .banner{
 	width: 100%

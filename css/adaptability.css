@@ -59,6 +59,11 @@
 	.subtitle__fix{
 		font-size: 14px;
 	}
+	.switch__element .switch__link{
+		font-size: 24px;
+		margin-right: 30px;
+		margin-left: 30px;
+	}
 }
 @media screen and (max-width: 426px) {
 	.title{
@@ -96,7 +101,7 @@
 		right: 1px;
 		top: 1px;
 	}
-	.swich_elements li a{
+	.switch__element .switch__link{
 		font-size: 14px;
 		margin-right: 12px;
 		margin-left: 12px;
@@ -153,7 +158,7 @@
 	}
 }
 @media screen and (max-width: 321px){
-	.swich_elements li a{
+	.switch__element .switch__link{
 		font-size: 10px;
 		margin-right: 12px;
 		margin-left: 12px;
