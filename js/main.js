@@ -1,4 +1,5 @@
 $(function () {
+	//слайдер
 	$('.owl-carousel').owlCarousel({
     loop:true,
     responsive:{
@@ -49,9 +50,10 @@ $(function () {
 		$('.popup').removeClass('show')
 	})
 	//ссылка на магазин
-	  $('.card').click(function(e){
+	  $('.cardbar__card').click(function(e){
 		return location.href = 'productpage.html'
 });
+//каунтер стоимости на стр товара
 let calculate = document.getElementById("calculation");
 let count = document.getElementById("buttonCountNumber");
 calculation = document.getElementById("calculation").innerHTML;
@@ -74,9 +76,6 @@ document.getElementById("buttonCountMinus").onclick = function() {
   }
 }
 
-document.getElementById("home").onclick = function() {
-	return location.href = 'index.html'
-}
 document.getElementById("xl").onclick = function() {
 	let result = document.getElementById("calculation").innerHTML;
 	calculate.innerHTML = zzz(result);
@@ -86,5 +85,9 @@ document.getElementById("xl").onclick = function() {
     }
     calculations = (count) => {
   return (+count)*(+calculation);
+}
+//link home
+document.getElementById("home").onclick = function() {
+	return location.href = 'index.html'
 }
     });
