@@ -466,8 +466,11 @@ background: linear-gradient(180deg, #222222 0%, #18BADD 98.59%);
 }*/
 .product__body{
 	margin-top: 70px;
+	margin-bottom: 40px;
+
 }
 .product__img{
+
 	margin-right: 40px;
 	box-shadow: -1px 3px 15px rgba(0, 0, 0, 0.7);
 	padding-left: 60px;
@@ -508,6 +511,7 @@ a.paramets{
 	margin-bottom: -20px;
 }
 .buttonCountNumber{
+	margin-bottom: 40px;
 	margin-right: 10px;
 	margin-left: 10px;
 	font-size: 28px;
@@ -536,17 +540,12 @@ a.paramets{
 }
 .icon::after{
 	content: '$';
-
-}
-.register__forms{
-
 }
 .form__title{
 	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 15px;
-
 }
 .input{
 	margin-bottom: 5px;
