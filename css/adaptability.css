@@ -1,0 +1,171 @@
+@media screen and (max-width: 1024px) {
+	.menu{
+		display: none;
+		align-items: stretch;
+		flex-wrap: wrap;
+		margin-top: 65px;
+		top: 0;
+		right: 0;
+		text-align: right;
+		position: absolute;
+		background-color: #222;
+	}
+	.user{
+		float: right;
+		margin-bottom: 30px;
+	}
+	.menu ul{
+		display: block;
+	}
+	.menu li{
+		padding-top: 10px;
+	}
+	.gamburger{
+		display: block; !important
+	}
+	.card{
+		width: 48%;
+	}
+	.about-title{
+		margin-top: 0px;
+	}
+	.about-text{
+		font-size: 20px
+	}
+	.btn-about{
+		margin-top: 0px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.banners{
+		display: block;
+		align-items: stretch;
+		flex-wrap: wrap;
+	}
+	.subtitle{
+		font-size: 18px;
+	}
+	.subtitle__fix{
+		font-size: 14px;
+	}
+	.banner{
+		padding: 0;
+		margin-bottom: 10px;
+		margin-top: 5px;
+	}
+	.btn-man,.btn-women{
+		display: none;
+	}
+	.subtitle__fix{
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 426px) {
+	.title{
+		font-size: 24px;
+	}
+	.owl-carousel .owl-item img{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.btn{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right: 100px;
+		margin-left: 100px;
+	}
+	.first-screen{
+			padding-bottom: 15px;
+	}
+	.arrow{
+		display: none;
+	}
+	.logo{
+		font-size: 24px;
+		width: 130px;
+	}
+	.header{
+		display: flex;
+	}
+	.subtitle{
+		font-size: 14px;
+	}
+	.gamburger{
+		position: absolute;
+		right: 1px;
+		top: 1px;
+	}
+	.swich_elements li a{
+		font-size: 14px;
+		margin-right: 12px;
+		margin-left: 12px;
+	}
+	.card{
+		width: 100%;
+	}
+	.cardbar{
+		height: 800px;
+		overflow: scroll;
+	}
+	.btn__fix {
+	  display: flex;
+		justify-content: center;
+		width: 200px;
+	}
+	.banners{
+		display: block;
+		align-items: stretch;
+		flex-wrap: wrap;
+	}
+	.banner{
+		width: 95%;
+		left: 10px;
+		padding: 0;
+		margin-bottom: 10px;
+		margin-top: 5px;
+	}
+	.btn-man,.btn-women{
+		display: none;
+	}
+	.advantages{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.img-about{
+		margin-bottom: 5px;
+	}
+	.about{
+		padding: 10px;
+	}
+	.buttons{
+		flex-wrap: wrap
+	}
+	.popup__body{
+		width: 80%;
+	}
+	.registerbtn{
+		margin: 0px;
+	}
+ 	.registerbtn_fix{
+		margin: 0px;
+	}
+}
+@media screen and (max-width: 321px){
+	.swich_elements li a{
+		font-size: 10px;
+		margin-right: 12px;
+		margin-left: 12px;
+	}
+	.btn__fix {
+	  display: flex;
+		justify-content: center;
+		width: 200px;
+ 		margin-left: 60px;
+	}
+}
+.show{
+	display: block;
+	z-index: 12;
+}
