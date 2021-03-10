@@ -38,11 +38,9 @@ button {
 	margin: 0px;
 	display: flex;
 }
-.menu a{
+.menu__element {
 	font-size: 18px;
 	font-weight: bold;
-}
-.menu li {
 	padding-top: 35px;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -50,7 +48,7 @@ button {
 	text-decoration: none;
 	color: #fff;
 }
-.menu li:hover{
+.menu__element:hover{
 	background-color: #3F3F3F;
 }
 .img{
