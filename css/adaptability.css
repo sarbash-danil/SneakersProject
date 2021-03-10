@@ -23,7 +23,7 @@
 	.gamburger{
 		display: block; !important
 	}
-	.card{
+	.cardbar__card{
 		width: 48%;
 	}
 	.about-title{
@@ -106,7 +106,7 @@
 		margin-right: 12px;
 		margin-left: 12px;
 	}
-	.card{
+	.cardbar__card{
 		width: 100%;
 	}
 	.cardbar{
